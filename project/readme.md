@@ -38,6 +38,7 @@ query Query($name: String) {
  npx prisma init
 
  # docker cmds
+```
  docker ps
  docker exec -it 40e3ea082d8d bash
  su postgres
@@ -47,3 +48,5 @@ query Query($name: String) {
 \c threads
 \x
 SELECT * FROM users;
+
+```
